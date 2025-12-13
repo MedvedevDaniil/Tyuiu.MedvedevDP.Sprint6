@@ -116,7 +116,7 @@
             textBoxTask.ReadOnly = true;
             textBoxTask.Size = new Size(365, 255);
             textBoxTask.TabIndex = 0;
-            textBoxTask.Text = "Протабулировать функцию sin(x) на заданном диапозоне.\r\nРезультат вывести в виде таблицы.";
+            textBoxTask.Text = "Протабулировать функцию sin(x) на заданном диапазоне.\r\nРезультат вывести в виде таблицы.";
             // 
             // groupBoxResult
             // 
