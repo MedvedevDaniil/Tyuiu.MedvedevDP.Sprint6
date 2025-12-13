@@ -53,13 +53,13 @@ namespace Tyuiu.MedvedevDP.Sprint6.Task1.V18
             }
             catch
             {
-                MessageBox.Show("Ââåäåíû íåâåðíûå äàííûå", "Îøèáêà", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("ТЕСТ", "ТЕСТ2", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Òàñê 1 âûïîëíèë ñòóäåíò ãðóïïû ÏÈÍá-25-1 Êàæàõìåòîâ Àìèð Åðáîëîâè÷", "Ñîîáùåíèå", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("ТЕСТ", "ТЕСТ2", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
