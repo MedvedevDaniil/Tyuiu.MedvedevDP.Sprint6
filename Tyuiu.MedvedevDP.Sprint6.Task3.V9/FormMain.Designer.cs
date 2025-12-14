@@ -130,7 +130,7 @@
             Controls.Add(groupBoxCondition_TAV);
             MaximizeBox = false;
             Name = "FormMain";
-            Text = "Спринт 6 | Таск 3 | Вариант 9 | Талалаева А.В.";
+            Text = "Спринт 6 | Таск 3 | Вариант 9 | Медведев Д.П.";
             Load += FormMain_Load;
             groupBoxCondition_TAV.ResumeLayout(false);
             groupBoxCondition_TAV.PerformLayout();
