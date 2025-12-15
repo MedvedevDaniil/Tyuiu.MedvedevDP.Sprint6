@@ -11,7 +11,7 @@ namespace Tyuiu.MedvedevDP.Sprint6.Task6.V10
             InitializeComponent();
         }
 
-        private void buttonOpenFile_AfoninME_Click(object sender, EventArgs e)
+        private void buttonOpenFile_Medvedev_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Title = "Открыть текстовый файл";
@@ -20,12 +20,12 @@ namespace Tyuiu.MedvedevDP.Sprint6.Task6.V10
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 currentFilePath = ofd.FileName;
-                textBoxInput_AfoninME.Text = File.ReadAllText(currentFilePath);
-                textBoxOutput_AfoninME.Clear();
+                textBoxInput_Medvedev.Text = File.ReadAllText(currentFilePath);
+                textBoxOutput_Medvedev.Clear();
             }
         }
 
-        private void buttonProcess_AfoninME_Click(object sender, EventArgs e)
+        private void buttonProcess_Medvedev_Click(object sender, EventArgs e)
         {
             try
             {
@@ -36,7 +36,7 @@ namespace Tyuiu.MedvedevDP.Sprint6.Task6.V10
                 }
 
                 string result = ds.CollectTextFromFile(currentFilePath);
-                textBoxOutput_AfoninME.Text = result;
+                textBoxOutput_Medvedev.Text = result;
             }
             catch (Exception ex)
             {
@@ -45,7 +45,7 @@ namespace Tyuiu.MedvedevDP.Sprint6.Task6.V10
             }
         }
 
-        private void buttonHelp_AfoninME_Click(object sender, EventArgs e)
+        private void buttonHelp_Medvedev_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Спринт 6 | Задание 6 | Вариант 10\n\n" +
                 "Программа загружает текстовый файл и выводит все слова, " +

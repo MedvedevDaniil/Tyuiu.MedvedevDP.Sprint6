@@ -13,91 +13,93 @@
 
         private void InitializeComponent()
         {
-            this.labelTitle_AfoninME = new System.Windows.Forms.Label();
-            this.textBoxInput_AfoninME = new System.Windows.Forms.TextBox();
-            this.textBoxOutput_AfoninME = new System.Windows.Forms.TextBox();
-            this.buttonOpenFile_AfoninME = new System.Windows.Forms.Button();
-            this.buttonProcess_AfoninME = new System.Windows.Forms.Button();
-            this.buttonHelp_AfoninME = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            labelTitle_Medvedev = new Label();
+            textBoxInput_Medvedev = new TextBox();
+            textBoxOutput_Medvedev = new TextBox();
+            buttonOpenFile_Medvedev = new Button();
+            buttonProcess_Medvedev = new Button();
+            buttonHelp_Medvedev = new Button();
+            SuspendLayout();
             // 
-            // labelTitle_AfoninME
+            // labelTitle_Medvedev
             // 
-            this.labelTitle_AfoninME.AutoSize = true;
-            this.labelTitle_AfoninME.Location = new System.Drawing.Point(20, 20);
-            this.labelTitle_AfoninME.Name = "labelTitle_AfoninME";
-            this.labelTitle_AfoninME.Size = new System.Drawing.Size(450, 13);
-            this.labelTitle_AfoninME.TabIndex = 0;
-            this.labelTitle_AfoninME.Text = "Вариант 10. Слова, содержащие 'w' / 'W', из файла InPutFileTask6V10.txt (через OpenFileDialog)";
+            labelTitle_Medvedev.AutoSize = true;
+            labelTitle_Medvedev.Location = new Point(20, 20);
+            labelTitle_Medvedev.Name = "labelTitle_Medvedev";
+            labelTitle_Medvedev.Size = new Size(524, 15);
+            labelTitle_Medvedev.TabIndex = 0;
+            labelTitle_Medvedev.Text = "Вариант 10. Слова, содержащие 'w' / 'W', из файла InPutFileTask6V10.txt (через OpenFileDialog)";
             // 
-            // textBoxInput_AfoninME
+            // textBoxInput_Medvedev
             // 
-            this.textBoxInput_AfoninME.Location = new System.Drawing.Point(23, 50);
-            this.textBoxInput_AfoninME.Multiline = true;
-            this.textBoxInput_AfoninME.ReadOnly = true;
-            this.textBoxInput_AfoninME.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxInput_AfoninME.Size = new System.Drawing.Size(420, 100);
-            this.textBoxInput_AfoninME.TabIndex = 1;
+            textBoxInput_Medvedev.Location = new Point(23, 50);
+            textBoxInput_Medvedev.Multiline = true;
+            textBoxInput_Medvedev.Name = "textBoxInput_Medvedev";
+            textBoxInput_Medvedev.ReadOnly = true;
+            textBoxInput_Medvedev.ScrollBars = ScrollBars.Vertical;
+            textBoxInput_Medvedev.Size = new Size(420, 100);
+            textBoxInput_Medvedev.TabIndex = 1;
             // 
-            // textBoxOutput_AfoninME
+            // textBoxOutput_Medvedev
             // 
-            this.textBoxOutput_AfoninME.Location = new System.Drawing.Point(23, 180);
-            this.textBoxOutput_AfoninME.Multiline = true;
-            this.textBoxOutput_AfoninME.ReadOnly = true;
-            this.textBoxOutput_AfoninME.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxOutput_AfoninME.Size = new System.Drawing.Size(420, 80);
-            this.textBoxOutput_AfoninME.TabIndex = 2;
+            textBoxOutput_Medvedev.Location = new Point(23, 180);
+            textBoxOutput_Medvedev.Multiline = true;
+            textBoxOutput_Medvedev.Name = "textBoxOutput_Medvedev";
+            textBoxOutput_Medvedev.ReadOnly = true;
+            textBoxOutput_Medvedev.ScrollBars = ScrollBars.Vertical;
+            textBoxOutput_Medvedev.Size = new Size(420, 80);
+            textBoxOutput_Medvedev.TabIndex = 2;
             // 
-            // buttonOpenFile_AfoninME
+            // buttonOpenFile_Medvedev
             // 
-            this.buttonOpenFile_AfoninME.Location = new System.Drawing.Point(460, 50);
-            this.buttonOpenFile_AfoninME.Name = "buttonOpenFile_AfoninME";
-            this.buttonOpenFile_AfoninME.Size = new System.Drawing.Size(110, 25);
-            this.buttonOpenFile_AfoninME.TabIndex = 3;
-            this.buttonOpenFile_AfoninME.Text = "Открыть файл";
-            this.buttonOpenFile_AfoninME.UseVisualStyleBackColor = true;
-            this.buttonOpenFile_AfoninME.Click += new System.EventHandler(this.buttonOpenFile_AfoninME_Click);
+            buttonOpenFile_Medvedev.Location = new Point(460, 50);
+            buttonOpenFile_Medvedev.Name = "buttonOpenFile_Medvedev";
+            buttonOpenFile_Medvedev.Size = new Size(110, 25);
+            buttonOpenFile_Medvedev.TabIndex = 3;
+            buttonOpenFile_Medvedev.Text = "Открыть файл";
+            buttonOpenFile_Medvedev.UseVisualStyleBackColor = true;
+            buttonOpenFile_Medvedev.Click += buttonOpenFile_Medvedev_Click;
             // 
-            // buttonProcess_AfoninME
+            // buttonProcess_Medvedev
             // 
-            this.buttonProcess_AfoninME.Location = new System.Drawing.Point(460, 90);
-            this.buttonProcess_AfoninME.Name = "buttonProcess_AfoninME";
-            this.buttonProcess_AfoninME.Size = new System.Drawing.Size(110, 25);
-            this.buttonProcess_AfoninME.TabIndex = 4;
-            this.buttonProcess_AfoninME.Text = "Выполнить";
-            this.buttonProcess_AfoninME.UseVisualStyleBackColor = true;
-            this.buttonProcess_AfoninME.Click += new System.EventHandler(this.buttonProcess_AfoninME_Click);
+            buttonProcess_Medvedev.Location = new Point(460, 90);
+            buttonProcess_Medvedev.Name = "buttonProcess_Medvedev";
+            buttonProcess_Medvedev.Size = new Size(110, 25);
+            buttonProcess_Medvedev.TabIndex = 4;
+            buttonProcess_Medvedev.Text = "Выполнить";
+            buttonProcess_Medvedev.UseVisualStyleBackColor = true;
+            buttonProcess_Medvedev.Click += buttonProcess_Medvedev_Click;
             // 
-            // buttonHelp_AfoninME
+            // buttonHelp_Medvedev
             // 
-            this.buttonHelp_AfoninME.Location = new System.Drawing.Point(520, 235);
-            this.buttonHelp_AfoninME.Name = "buttonHelp_AfoninME";
-            this.buttonHelp_AfoninME.Size = new System.Drawing.Size(30, 25);
-            this.buttonHelp_AfoninME.TabIndex = 5;
-            this.buttonHelp_AfoninME.Text = "?";
-            this.buttonHelp_AfoninME.UseVisualStyleBackColor = true;
-            this.buttonHelp_AfoninME.Click += new System.EventHandler(this.buttonHelp_AfoninME_Click);
+            buttonHelp_Medvedev.Location = new Point(520, 235);
+            buttonHelp_Medvedev.Name = "buttonHelp_Medvedev";
+            buttonHelp_Medvedev.Size = new Size(30, 25);
+            buttonHelp_Medvedev.TabIndex = 5;
+            buttonHelp_Medvedev.Text = "?";
+            buttonHelp_Medvedev.UseVisualStyleBackColor = true;
+            buttonHelp_Medvedev.Click += buttonHelp_Medvedev_Click;
             // 
             // FormMain
             // 
-            this.ClientSize = new System.Drawing.Size(600, 290);
-            this.Controls.Add(this.buttonHelp_AfoninME);
-            this.Controls.Add(this.buttonProcess_AfoninME);
-            this.Controls.Add(this.buttonOpenFile_AfoninME);
-            this.Controls.Add(this.textBoxOutput_AfoninME);
-            this.Controls.Add(this.textBoxInput_AfoninME);
-            this.Controls.Add(this.labelTitle_AfoninME);
-            this.Name = "FormMain";
-            this.Text = "Спринт 6 | Task 6 | Вариант 10 | Медведев Д.П.";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ClientSize = new Size(600, 290);
+            Controls.Add(buttonHelp_Medvedev);
+            Controls.Add(buttonProcess_Medvedev);
+            Controls.Add(buttonOpenFile_Medvedev);
+            Controls.Add(textBoxOutput_Medvedev);
+            Controls.Add(textBoxInput_Medvedev);
+            Controls.Add(labelTitle_Medvedev);
+            Name = "FormMain";
+            Text = "Спринт 6 | Task 6 | Вариант 10 | Медведев Д.П.";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
-        private System.Windows.Forms.Label labelTitle_AfoninME;
-        private System.Windows.Forms.TextBox textBoxInput_AfoninME;
-        private System.Windows.Forms.TextBox textBoxOutput_AfoninME;
-        private System.Windows.Forms.Button buttonOpenFile_AfoninME;
-        private System.Windows.Forms.Button buttonProcess_AfoninME;
-        private System.Windows.Forms.Button buttonHelp_AfoninME;
+        private System.Windows.Forms.Label labelTitle_Medvedev;
+        private System.Windows.Forms.TextBox textBoxInput_Medvedev;
+        private System.Windows.Forms.TextBox textBoxOutput_Medvedev;
+        private System.Windows.Forms.Button buttonOpenFile_Medvedev;
+        private System.Windows.Forms.Button buttonProcess_Medvedev;
+        private System.Windows.Forms.Button buttonHelp_Medvedev;
     }
 }
